@@ -7,7 +7,7 @@
     + Deploy to Google Clould Platform.
 ### Set up 
 ### Use Github
-- Clone source code (use `git clone <url-git>`):
+- Clone source code (use `git clone <git-url>`):
 ```
 git clone https://github.com/Phammanh26/cv-cifar100.git
 ```
@@ -15,11 +15,7 @@ git clone https://github.com/Phammanh26/cv-cifar100.git
 ```
 pip install -r requirements.txt
 ```
-- Running
-```
-python app.py 
-```
-- Click to `http://ip:port/` for testing
+- After, runnng app by command `python app.py` and click to `http://ip:port/` for experiment
 + Note: Ip & port for define in app.py, you edit at:  `app.run(debug = True, host='0.0.0.0', port="5050")`
 ### Use Docker
 - Clone resource from github:
